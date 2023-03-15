@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.h1{
+    display: flex;
+    justify-content: center;
+    background-color: #102766;
+}
+h1{
+    padding: 20px;
+    color: #ffffff;
+}
+.container{
+    display: flex;
+    height: 100vh;
+
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    background-color: #102766;
+    
+}
+h2{
+    padding-bottom: 20px;
+}
+.botao_form{
+    width: 200px;
+    height: 30px;
+    background-color: #E84118;
+    color: #ffffff;
+    border-radius: 10px;
+}
+form{
+    background-color:#ffffff ;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 20px;
+    align-items: center; 
+}
+
+.task{
+    width: 100%;
+    padding: 20px;
+}
+.desc{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.data{
+    margin: 10px;
+}
+
+.data button{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+ul{
+    List-style: none
+}
+li{
+    padding: 5px;
+    border:solid #C7C4C4 ;
+    border-radius: 15px;
+    margin-top: 10px;
+}
