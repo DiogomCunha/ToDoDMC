@@ -129,10 +129,10 @@ function App() {
                   <div className="data">
                     <p>{item.data}</p>
 
-                    <button onClick={() => deletarTarefa(item.id)}>
+                    <button className="botao_delet" onClick={() => deletarTarefa(item.id)}>
                       Deletar
                     </button>
-                    <button onClick={() => preencheEstado(item)}>Editar</button>
+                    <button className="botao_edit" onClick={() => preencheEstado(item)}>Editar</button>
                   </div>
                 </li>
               ))}

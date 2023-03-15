@@ -35,6 +35,7 @@ h2{
     background-color: #E84118;
     color: #ffffff;
     border-radius: 10px;
+    border: none;
 }
 form{
     background-color:#ffffff ;
@@ -48,6 +49,24 @@ form{
     align-items: center; 
 }
 
+input{
+    width: 250px;
+    height: 30px;
+    border-color: #1027668c;
+    text-align: center;
+    outline: none;
+    border-radius: 10px;
+}
+
+select{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    border-color: #102766a9;
+    border-radius: 10px;
+    outline: none;
+}
+
 .task{
     width: 100%;
     padding: 20px;
@@ -57,13 +76,39 @@ form{
     justify-content: space-between;
     
 }
+.desc2{
+    width: 1000px;
+    margin-bottom: 8px;
+}
+.desc2 p{
+    margin-top: 8px;
+}
 .data{
     margin: 10px;
+    text-align: center;
 }
 
 .data button{
     margin-top: 15px;
     margin-left: 5px;
+}
+
+.botao_delet{
+    background-color: #E84118;
+    color: #ffffff;
+    width: 55px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.botao_edit{
+    background-color: #10681c;
+    color: #ffffff;
+    width: 55px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
 }
 
 ul{
